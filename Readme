@@ -1,4 +1,7 @@
 The hardware setup consists of a wheeled robot with an IR sensor placed near the wheel. The black coloured wheel has a white tag near the circumference. Everytime the white tag comes in front of the IR sensor, an interrupt is triggered. The speed of the motor is then found out my measuring the time taken in between two successive interrupts. 
+
 The measured speed is displayed on the LCD display. 
+
 Arduino communicates with LCD via 4-bit interface.
+
 The PID control algorithm is implemented to maintain the motor speed at a desired value.
